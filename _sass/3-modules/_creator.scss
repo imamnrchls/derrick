@@ -1,0 +1,31 @@
+/* Creator */
+.creator__img {
+  display: block;
+  max-width: 90px;
+  max-height: 90px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background-color: $gray-white;
+  transition: opacity 100ms ease;
+  &:hover {
+    .avatar {
+      opacity: 0.9;
+    }
+  }
+}
+
+.creator__name {
+  margin-bottom: 15px;
+  font-size: 37px;
+  text-align: center;
+  color: $gray;
+}
+
+.creator__nim {
+  max-width: 450px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: $gray-blue;
+}
