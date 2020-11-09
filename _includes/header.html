@@ -12,14 +12,15 @@
       </a>
     </div>
 
-    <div class="main-nav">
-      <i class="main-nav__open ion ion-md-menu"</i>
+      <nav class="main-nav">
+      <span class="main-nav__open"> <ion-icon name="menu"></ion-icon></span>
 
       <div class="main-nav__box">
-        <i class="main-nav__close ion ion-md-close"></i>
+        <span class="main-nav__close" <ion-icon name="close"></ion-icon></span>
+
         <ul class="nav__list list-reset">
           <li class="nav__item">
-            <a href="{{site.baseurl}}/" class="nav__link">Beranda</a>
+            <a href="{{site.baseurl}}/" class="nav__link">Home</a>
           </li>
           {% for page in site.pages %}
             {% unless page.name == 'tags.html' or page.name == '404.html' %}
@@ -31,8 +32,10 @@
             {% endunless %}
           {% endfor %}
         </ul>
+
       </div>
-    </div>
+
+    </nav>
 
   </header>
   <!-- end header -->
