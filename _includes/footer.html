@@ -2,6 +2,13 @@
   <!-- begin footer -->
   <footer class="footer">
     <div class="footer__inner">
+      <ul class="contact__list list-reset">
+          {% for contact in site.contact %}
+          <li class="contact__item">
+            <a class="contact__link" href="{{contact.link}}">{{contact.name}}</a>
+          </li>
+          {% endfor %}
+        </ul>
       <div class="contact">
         <div class="contact__title">Dibuat dan dibangun oleh Kelompok 5</div>
       </div>
