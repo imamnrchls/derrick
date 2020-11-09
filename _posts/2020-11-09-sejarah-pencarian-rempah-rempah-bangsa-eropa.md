@@ -36,6 +36,6 @@ Ini bisa dikasih infografis
 ## Ini bisa dikasih sesi kuis pake gform
 
 <div class="author__more">
-  <a href="imamnrchls.xyz" class="say-hello">Ini Bisa Diisi Link Gform nya</a>
+  <a href="https://imamnrchls.xyz" class="say-hello">Ini Bisa Diisi Link Gform nya</a>
 </div>
 
