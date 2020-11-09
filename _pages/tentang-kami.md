@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Tentang Kami
+permalink: /tentang-kami/
 image: '/assets/img/logo.png'
 ---
 
