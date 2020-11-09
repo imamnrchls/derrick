@@ -1,4 +1,14 @@
 /* Creator */
+.creator {
+  margin: 80px 0;
+  padding-bottom: 70px;
+  border-bottom: 1px solid $gray-lighten;
+  @media (max-width: $mobile) {
+    margin: 50px 0;
+    padding-bottom: 50px;
+  }
+}
+
 .creator__img {
   display: block;
   max-width: 90px;
